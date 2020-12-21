@@ -2,19 +2,97 @@ html, body {
     margin: 0;
     border: 0;
 }
+
+.head1 {
+    background-color: grey;
+    color: white;
+}
+
+.head2 {
+    background-color: rgb(238, 227, 227);
+    color: white;
+}
+
+
+.header a {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+}
 .header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 5px solid red;
-    padding: 0px
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+   
+    /* adding border for editing  */
+    /* border: 5px solid red; */
+
 }
 .header li {
     list-style-type: none;
-    border: 5px solid red;
+    /* adding border for editing  */
+    /* border: 5px solid red; */
+    
+}
+.head1 ul {
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    /* adding border for editing  */
+    /* border: 5px solid black;
+    outline-style: solid;
+    outline-color: red; */
+
 }
 
+.head1 li {
+    padding-top: 12px;
+}
 
+li.logo {
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: -100px;
+    /* adding border for editing  */
+    /* border: 5px solid black;
+    outline-style: solid;
+    outline-color: red; */
+
+}
+
+li.search {
+    padding: 25px;
+    padding-top: 5px;
+    /* adding border for editing  */
+    /* border: 5px solid pink;
+    outline-style: solid;
+    outline-color: red; */
+
+}
+li.cart {
+    padding: 25px;
+    padding-top: 5px;
+    margin-right: -280px;
+    /* adding border for editing  */
+    /* border: 5px solid green;
+    outline-style: solid;
+    outline-color: red; */
+
+}
+li.login {
+    padding: 25px;
+    padding-top: 5px;
+    margin-right: -160px;
+
+    /* adding border for editing  */
+    /* outline-style: solid;
+    outline-color: red;
+    border: 5px solid blue; */
+
+}
 
 /* .head1 {
     display: flex;
