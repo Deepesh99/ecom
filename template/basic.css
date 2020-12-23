@@ -106,4 +106,13 @@ li.login {
 .head1 ul{
     
 } */
+a:link {
+    color:black;
+}
+a:visited {
+    color: black;
+}
 
+a:hover {
+    color: red;
+}
