@@ -106,13 +106,61 @@ li.login {
 .head1 ul{
     
 } */
-a:link {
-    color:black;
+
+/* a:link {
+    color: black;
 }
 a:visited {
     color: black;
 }
 
 a:hover {
-    color: red;
+  color: beige;
 }
+*/
+
+/* ---------------FOOTER STARTS FROM HERE --------------  */
+
+.site-footer
+{
+  font-family: Arial;   
+  background-color:black;
+  padding:45px 20px;
+  font-size:15px;
+  line-height:20px;
+  color:white;
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+}
+
+.site-footer .container{
+    font-size: 16px;
+    font-family: arial;
+    color:white;
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white;
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+
+
