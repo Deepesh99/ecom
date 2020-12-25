@@ -1,13 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
 html, body {
     margin: 0;
     border: 0;
 }
-
-.head1 {
-    background-color: grey;
-    color: white;
+/*hardik*/
+.navbar{
+    display: flex;
+}
+ .nav-list{
+    width: 30%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    padding-right: none;
+    
+ }
+.nav-list li{
+    align-content: space-between;
+    list-style: none;
+    padding: 20px 45px;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
 }
 
+ .left-nav{
+    width: 70%; 
+    background-color: #f8f9fa;   
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+ .logo{
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 30px;  
+    color: grey;  
+}  
+
+ .ssrc{
+    padding: 20px 70px ;  
+    align-content: center;
+    text-align: right;
+}
+.textbox
+{
+ font-size:18pt;
+ height:20px;
+ width:400px;
+ border-radius: 20px;
+}
+.btn
+{
+height: 25px;
+font-size: 20px;
+border-radius: 20px;
+width: 80px;
+color: grey;
+}
+/*hardik*/
 .head2 {
     background-color: rgb(238, 227, 227);
     color: white;
