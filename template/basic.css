@@ -6,7 +6,10 @@ html, body {
     margin: 0;
     border: 0;
 }
-/*hardik*/
+
+/* ---------------------------HEADER------------------------------------- */
+
+/*------------hardik-------------------*/
 .navbar{
     display: flex;
 }
@@ -70,9 +73,11 @@ border-radius: 20px;
 width: 80px;
 color: grey;
 }
-/*hardik*/
+/*------------hardik-------------------*/
+
+/*------------deepesh-------------------*/
 .head2 {
-    background-color: rgb(238, 227, 227);
+    background-color: #dbecfd; 
     color: white;
 }
 
@@ -111,79 +116,18 @@ color: grey;
 
 }
 
-.head1 li {
-    padding-top: 12px;
+.head2 a:link {
+    color: grey;
 }
 
-li.logo {
-    padding: 10px;
-    padding-top: 5px;
-    margin-left: -100px;
-    /* adding border for editing  */
-    /* border: 5px solid black;
-    outline-style: solid;
-    outline-color: red; */
-
+.head2 a:hover {
+  font-size: 110%;
+  text-decoration: underline;
 }
-
-li.search {
-    padding: 25px;
-    padding-top: 5px;
-    /* adding border for editing  */
-    /* border: 5px solid pink;
-    outline-style: solid;
-    outline-color: red; */
-
-}
-li.cart {
-    padding: 25px;
-    padding-top: 5px;
-    margin-right: -280px;
-    /* adding border for editing  */
-    /* border: 5px solid green;
-    outline-style: solid;
-    outline-color: red; */
-
-}
-li.login {
-    padding: 25px;
-    padding-top: 5px;
-    margin-right: -160px;
-
-    /* adding border for editing  */
-    /* outline-style: solid;
-    outline-color: red;
-    border: 5px solid blue; */
-
-}
-
-/* .head1 {
-    display: flex;
-    flex-direction: row;
-    
-} 
- .sub-head {
-
-}
-
-.head1 ul{
-    
-} */
-
-/* a:link {
-    color: black;
-}
-a:visited {
-    color: black;
-}
-
-a:hover {
-  color: beige;
-}
-*/
-
+/*------------deepesh-------------------*/
+/* ---------------------------HEADER ENDS-------------------------------------} */
 /* ---------------FOOTER STARTS FROM HERE --------------  */
-
+/* ------------------jay------------------ */
 .site-footer
 {
   font-family: Arial;   
@@ -192,6 +136,11 @@ a:hover {
   font-size:15px;
   line-height:20px;
   color:white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .site-footer h6
@@ -224,6 +173,6 @@ a:hover {
 {
   margin:0
 }
-
-
+/* ------------------jay------------------ */
+/* ------------------------FOOTER ENDS---------------------------- */
 
